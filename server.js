@@ -42,9 +42,9 @@ if(path == '/style.css'){
 }else if(path == '/'){
 	response.setHeader('Content-Type','text/html;charset=utf-8')
   response.write('<!doctype>\n<html>'+
-  '<head><link rel="stylesheet" href="/style"></head><body>'+
+  '<head><link rel="stylesheet" href="/style.css"></head><body>'+
   '<h1>你好</h1>'+
-  '<script src="/script"></script>'+
+  '<script src="/main.js"></script>'+
   '</body></html>')
 	response.end()
 }else{
